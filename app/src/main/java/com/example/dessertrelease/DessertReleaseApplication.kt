@@ -31,7 +31,7 @@ private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(
 /*
  * Custom app entry point for manual dependency injection
  */
-class DessertReleaseApplication: Application() {
+class  DessertReleaseApplication: Application() {
     lateinit var userPreferencesRepository: UserPreferencesRepository
 
     override fun onCreate() {
